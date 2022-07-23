@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0%;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(./backimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background: rgb(226, 215, 208);
+
+background: linear-gradient(90deg, rgb(223, 192, 174) 0%, rgb(202, 144, 142) 100%);
+
+background: -moz-linear-gradient(90deg, rgb(209, 182, 167) 0%, rgb(235, 210, 209) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(22, 100%, 78%, 1) 0%, rgb(102, 84, 83) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFB88E", endColorstr="#EA5753", GradientType=1 );
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 8em auto;
+    padding: 2%;
+    max-width: 50%;
+    height: 50%;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+}
+.container-heading{
+    display: flex;
+    padding: 4%;
+    border-bottom: 2px solid black;
+}
+.container-left{
+    padding: 0 4% 0 0;
+    border-right: 2px solid black;
+}
+.container-right{
+    padding: 0 0 0 4%;
+    
+}
+/* Body parts Starts from here */
+.bodycontainer{
+    text-align: left;
+    
+}
+.bodycontainer span{
+    text-decoration: none;
+    margin: 9%;
+}
+.amountinput{
+    text-decoration: underline;
+}
+.amountinput input{
+    width: 100%;
+    padding: 1% 0;
+    
+}
+.frequency{
+    padding: 4% 0 0 0;
+}
+.frequency select{
+    width: 100%;
+    padding: 1% 0;
+    text-align: left;
+    margin: 2% 0 0 0;
+}
+.payment-method{
+    padding: 4% 0 0 0;
+}
+.payment-method select{
+    margin: 2% 0 0 0;
+    width: 100%;
+    padding: 1% 0;
+}
+label{
+    text-decoration: underline;
+}
+.submitbutton{
+    border-bottom: 2px solid gray;
+}
+.submitbutton button{
+    margin: 3%;    
+    border-radius: 3px;
+    cursor: pointer;
+}
+.submitbutton button:hover{
+    background-color: rgb(82, 197, 82);
+}
+
+.footer{
+    background-color: rgb(2, 1, 1);
+    padding: 1%;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: red;
+    text-shadow: 2px 2px 5px blueviolet;
+    animation: name 2s infinite;
+}
+@keyframes name {
+    0%{color: violet;}
+    25%{color: indigo;}
+    50%{color: blue;}
+    75%{color: green;}
+    100%{color: yellow;}
+}
